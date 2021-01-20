@@ -4,6 +4,7 @@ MATLAB script to fit Zernike modes to phase-wrapped data
 
 See demo.m for an example of how to use the zernike_fit script.
 
+~~~
 demo.m  - demo script
 diff2.m - function to compute numerical gradient of a 2-d image
 Mask.m  - mask object that contains information about coordinates and
@@ -16,5 +17,5 @@ model.m - prepares a model matrix for use in the zernike_fit function
 zernfun_cart.m  - computes zernike modes in a 2-D cartesian basis
 zernike_fit     - the function that performs the actual fitting algorithm
 zernike_mode    - computes radial and azimuthal order of the first N Zernike modes
-
+~~~
 
